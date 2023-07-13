@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { AiFillFilePdf } from "react-icons/ai";
 
 export default function aboutMe() {
   useEffect(() => {
@@ -23,7 +24,10 @@ export default function aboutMe() {
         from Bootcamp Pijar Camp who is skilled with fullstack Javascript.
       </h3>
       <div className="card-actions">
-        <button className="btn btn-outline btn-warning">See My Resume</button>
+        <button className="btn btn-outline btn-warning">
+          See My Resume
+          <AiFillFilePdf />
+        </button>
       </div>
     </div>
   );
